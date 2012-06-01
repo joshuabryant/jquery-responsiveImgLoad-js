@@ -65,8 +65,6 @@
 					$img
 						.load(function() { current.attr('src', $(this).attr('src')); })
 						.attr('src', fullSize);
-					
-					$(window).unbind('resize.responsiveImgLoad');
 				}
 			}
 		}
